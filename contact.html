@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dinosaur</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+<body>
+    <header>
+        <a href="home page.html"><img src="logo.png" class="logo"></a>
+        <div class="nav">
+            <a href="home page.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="contact.html">Contact</a>
+            <img src="moon.png" id="icon">
+        </div>
+    </header>
+    <div class="main">
+        <section class="main1">
+            <img src="b1.png" class="png1">
+            <h2>student1</h2>
+        </section>
+        <section class="main2">
+            <img src="b2.png" class="png2">
+            <h2>student2</h2>
+        </section>
+        </div>
+    <footer>
+        <h2>&copy; Copyright Reserved.</h2>
+    </footer>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src ="sun.png";
+        }else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Header & Footer</title>
+        <link rel="stylesheet" type="text/css" href="content.css">
+    </head>
+<body>
+    <header>
+        <a href="home page.html"><img src="logo.png" class="logo"></a>
+        <div class="nav">
+            <a href="home page.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="contact.html">Contact</a>
+            <img src="moon.png" id="icon">
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="conatine">
+            <div class="box">
+                <img src="trex.png">
+                <h3>T-rex</h3>
+                <p>html for web design to project</p>
+                <a href="T-rex.html" class="btn">read</a>
+            </div>
+            <div class="box">
+                <img src="brachio.png">
+                <h3>Brontosaurus</h3>
+                <p>html for web design to project</p>
+                <a href="Brachiosaurus.html" class="btn">read</a>
+            </div>
+            <div class="box">
+                <img src="pter.png">
+                <h3>Pteranodon</h3>
+                <p>html for web design to project</p>
+                <a href="Pteranodon.html" class="btn">read</a>
+            </div>
+            <div class="box">
+                <img src="mosasaurus.png">
+                <h3>mosasaurus</h3>
+                <p>html for web design to project</p>
+                <a href="mosasaurus.html" class="btn">read</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>&copy; Copyright Reserved.</h2>
+    </footer>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src ="sun.png";
+        }else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+</body>
+</html>

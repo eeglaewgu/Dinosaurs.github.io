@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dinosaur</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+<body>
+    <header>
+        <a href="home page.html"><img src="logo.png" class="logo"></a>
+        <div class="nav">
+            <a href="home page.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="contact.html">Contact</a>
+            <img src="moon.png" id="icon">
+        </div>
+    </header>
+    <div class="main">
+        <section class="main1">
+            <h2>What are dinosaurs</h2>
+            <p>Dinosaurs are a group of reptiles that dominated the land for over 140 million years. They evolved diverse shapes and sizes, from the fearsome giant Spinosaurus to the chicken-sized Microraptor</p>
+            <img src="bbtrex.png" class="png1">
+        </section>
+        <section class="main2">
+            <h2>What is a fossil?</h2>
+            <p>Dinosaur trace fossils are records of the activity of a living dinosaur. Most dinosaur trace fossils are footprints. Dinosaur tracks and body fossils are not usually found preserved in the same rocks,there are some exceptions</p>
+            <img src="fossill.png" class="png2">
+        </section>
+        <section class="main3">
+            <h2>How dinosaurs died</h2>
+            <p>Sixty-six million years ago, dinosaurs had the ultimate bad day. With a devastating asteroid impact, a reign that had lasted 180 million years was abruptly ended. Prof Paul Barrett, a dinosaur researcher at the Museum</p>
+            <img src="comet.png" class="png3">
+        </section>
+    </div>
+    <footer>
+        <h2>&copy; Copyright Reserved.</h2>
+    </footer>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src ="sun.png";
+        }else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+</body>
+</html>

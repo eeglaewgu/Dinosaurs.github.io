@@ -1,0 +1,132 @@
+body{
+    font-family: Cursive;
+}*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+header{
+    position: absolute;
+    background-color:var(--primary-color);
+    width:100%;
+    color: var(--secondary-color);
+    display: show;
+}
+header{
+    height: 10vh;
+}
+body{
+    background:var(--primary-color);
+}
+footer{
+    position: absolute;
+    background-color:var(--primary-color);
+    width:100%;
+    color: var(--secondary-color);
+    display: show;
+}
+footer h2{
+    position: absolute;
+    left:45%;
+}
+.nav{
+    position: absolute;
+    width:100% ;
+}
+.nav a{
+    position: relative;
+    left: 70%;
+    top: 25px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 30px;
+}
+.logo{
+    position: absolute;
+    height: auto;
+    left: 10%;  
+    top: 25%;
+    width: 80px;   
+}
+#icon{
+    position: absolute;
+    width: 30px;
+    cursor: pointer;
+    left: 95%;
+    top: 30px;
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+.main{
+    display: flex;
+    padding-top: 100px;
+}
+.main1{
+    text-align: auto;
+    margin-right: 60px;
+    flex: 3;
+}
+.main1 h2{
+    font-size: 40px;
+    margin-bottom: 55px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.main1 p{
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    border-style:groove;
+    border-radius:20px;;
+}
+.png1{
+    width: 100%;
+}
+.main2{
+    text-align: auto;
+    margin-right: 60px;
+    flex: 3;
+}
+.main2 h2{
+    font-size: 40px;
+    margin-bottom: 55px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.main2 p{
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    border-style:groove;
+    border-radius:20px;;
+}
+.png2{
+    width: 100%;
+}
+.main3{
+    text-align: auto;
+    margin-right: 60px;
+    flex: 3;
+}
+.main3 h2{
+    font-size: 40px;
+    margin-bottom: 55px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.main3 p{
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+    border-style:groove;
+    border-radius:20px;;
+}
+.png3{
+    width: 100%;
+}

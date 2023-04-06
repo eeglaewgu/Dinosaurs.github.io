@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Brontosaurus</title>
+        <link rel="stylesheet" type="text/css" href="bronto.css">
+    </head>
+<body>
+    <header>
+        <a href="home page.html"><img src="logo.png" class="logo"></a>
+        <div class="nav">
+            <a href="home page.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="contact.html">Contact</a>
+            <img src="moon.png" id="icon">
+        </div>
+    </header>
+    <div class="main">
+        <section class="main1">
+            <h2>What are about Brontosaurus</h2>
+            <p>The Apatosaurus, also called the Brontosaurus, was a truly giant dinosaur that lived around 150 million years ago. It was first described by O. C. Marsh, a paleontologist from Yale University, in 1877</p>
+            <p>The Apatosaurus is one of the largest animals to ever live on earth. It was 75 feet long and 50,000 pounds! It had a really long neck and tail as well as a small head. It may have used its long neck to reach out of the way food as well as to keep its head away from shorter predators.</p>
+            <p>Fossils have been found in North America in Colorado, Utah, Wyoming, and Oklahoma. At one time scientists thought that the Apatosaurus lived in water and swampy areas. This was because its nostrils are on the top of its head. They thought this was because it used them to breath while in deep water. However, due to where fossils have been found, it is likely that they lived on dry land.</p>
+            <p>The Apatosaurus was an herbivore, meaning it only ate plants. It had to eat a LOT of plants every day to maintain its large size. It probably ate all sorts of plants including tree leaves and ferns. It didn't chew its food, but rather had stones called gastroliths in its stomach that helped to digest its food.</p>
+            <img src="b1.png" class="png1">
+        </section>
+        <section class="main2">
+            <h2>Facts about Brontosaurus</h2>
+            <p>At one time a larger version was called the Brontosaurus. Later paleontologists decided this was a mistake and that the Brontosaurus and the Apatosaurus were the same dinosaur. Since Apatosaurus was named first, that is the name they kept.</p>
+            <p>They may have lived up to 100 years old.</p>
+            <p>They hatched from eggs that were around 1 foot long.</p>
+            <p>To get blood all the way up their long necks and to their heads, they must have had powerful hearts and high blood pressure.</p>
+            <p>It's possible that it could have cracked its tail like a whip to make a large sound to scare off predators</p>
+            <p>Even though Apatosaurus is the correct scientific name for this dinosaur, Brontosaurus is more often used in popular culture from movies to even United States stamps.</p>
+            <img src="b2.png" class="png2">
+        </section>
+        </div>
+    <footer>
+        <h2>&copy; Copyright Reserved.</h2>
+    </footer>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src ="sun.png";
+        }else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mosasaurus</title>
+        <link rel="stylesheet" type="text/css" href="mosa.css">
+    </head>
+<body>
+    <header>
+        <a href="home page.html"><img src="logo.png" class="logo"></a>
+        <div class="nav">
+            <a href="home page.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="contact.html">Contact</a>
+            <img src="moon.png" id="icon">
+        </div>
+    </header>
+    <div class="main">
+        <section class="main1">
+            <h2>What are about Mosasaurus</h2>
+            <p>Mosasaurus is an extinct aquatic reptile that lived at the very end of the Cretaceous Period, from around 82.7 to 66 million years ago. Mosasaurus was not a dinosaur; like other mosasaurs, it was descended from lizards that originally lived on land. Because of this, Mosasaurus belongs to the reptilian order Squamata, which contains all lizards and snakes.</p>
+            <p>Mosasaurus lived in the Atlantic Ocean and in connected seas, such as the Western Interior Seaway, which divided North America into two separate landmasses for much of the Cretaceous Period.</p>
+            <p>Mosasaurus was a large, powerful, fast-moving and well-armed predator that likely sat at the top of the food-chain in the oceans of the Mesozoic Era.</p>
+            <p>Mosasaurus lived from around 82.7 to 66 million years ago, at the very end of the Cretaceous Period. It became extinct in the Cretaceous-Paleogene Extinction Event that also wiped out the non-avian dinosaurs, plesiosaurs, pterosaurs, ammonites, and many other animals and plants.</p>
+            <img src="mosa1.png" class="png1">
+        </section>
+        <section class="main2">
+            <h2>Facts about Mosasaurus</h2>
+            <p>The name Mosasaurus means: “Lizard of the Meuse River”.</p>
+            <p>The Mosasaurus lived in the Late Cretaceous Period between 66 and 70 million years ago.</p>
+            <p>The largest discovered specimen of Mosasaurus had a length of up to 56 feet.</p>
+            <p>The length of the Mosasaurus was greater then the fearsome Tyrannosaur rex.</p>
+            <p>The teeth of a Mosasaurus were shaped like sharp spikes, allowing them grip and hold onto their prey.</p>
+            <p>The double-hinged jaw of the Mosasaurus would allow it to swallow its prey whole.</p>
+            <p>The Mosasaurus spent most of its time near the ocean surface, much like modern whales do, since they breathed air in a similar fashion.</p>
+            <img src="mosa2.png" class="png2">
+        </section>
+        </div>
+    <footer>
+        <h2>&copy; Copyright Reserved.</h2>
+    </footer>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src ="sun.png";
+        }else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+</body>
+</html>

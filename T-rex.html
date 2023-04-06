@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>T-rex</title>
+        <link rel="stylesheet" type="text/css" href="T-rex.css">
+    </head>
+<body>
+    <header>
+        <a href="home page.html"><img src="logo.png" class="logo"></a>
+        <div class="nav">
+            <a href="home page.html">Home</a>
+            <a href="content.html">Content</a>
+            <a href="contact.html">Contact</a>
+            <img src="moon.png" id="icon">
+        </div>
+    </header>
+    <div class="main">
+        <section class="main1">
+            <h2>What are about T-Rex</h2>
+            <p>Tyrannosaurus rex was one of the largest and most fearsome carnivores of all time. Although Tyrannosaurus rex is one of the most renowned dinosaurs, few of the fossil specimens recovered by paleontologists are complete.</p>
+            <p>The Tyrannosaurus rex was a bipedal dinosaur. This means that it walked and ran on two legs. These two legs were large and strong to carry the immense weight of the dinosaur. In contrast, the arms of the T-rex were relatively small. Although, it is thought that the small arms were very strong in order hold onto prey</p>
+            <p>The T-rex ate meat from other animals and dinosaurs, however, there is much debate over whether the Tyrannosaurus Rex was a predator (hunted and killed it's own food) or whether it was a scavenger</p>
+            <p>There are numerous significant specimens of the Tyrannosaurus in museums throughout the world. One of the largest and most complete is "Sue" at the Field Museum of Natural History in Chicago. Another major T-Rex specimen is "Stan" at Black Hills Museum of Natural History Exhibit in Hill City, South Dakota. Also, paleontologist Barnum Brown's largest Tyrannosaurus find (he found 5 in all) can be seen at the American Museum of Natural History in New York.</p>
+            <img src="t1.png" class="png1">
+        </section>
+        <section class="main2">
+            <h2>Facts about T-Rex</h2>
+            <p>The Tyrannosaurus had a life span of around 30 years.</p>
+            <p>Tyrannosaurus is from the Greek word meaning Tyrant Lizard</p>
+            <p>The dinosaur has many similar features to birds. One thought is that they were warm-blooded like birds, rather than cold-blooded like reptiles.</p>
+            <p>Its arms were too short to reach its mouth.</p>
+            <p>It lived in North America in river valleys and forests.</p>
+            <p>It could probably eat as much as 500 pounds of meat in a single bite.</p>
+            <p>The Chicago museum purchased the famous Tyrannosaurus Sue fossil for $8 million.</p>
+            <p>Their babies may have been covered in feathers.</p>
+            <img src="t2.png" class="png2">
+        </section>
+        </div>
+    <footer>
+        <h2>&copy; Copyright Reserved.</h2>
+    </footer>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src ="sun.png";
+        }else{
+            icon.src = "moon.png";
+        }
+    }
+</script>
+</body>
+</html>
